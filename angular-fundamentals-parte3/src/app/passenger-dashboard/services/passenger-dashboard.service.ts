@@ -4,7 +4,7 @@ import {Passenger} from '../models/passenger.interface';
 import {Injectable} from '@angular/core';
 
 
-const PASSENGER_API: string = 'http://localhost:3000/passengers'
+const PASSENGER_API: string = 'http://localhost:8080/passengers'
 
 @Injectable({ providedIn: 'root' })
 export class PassengerDashboardService {
